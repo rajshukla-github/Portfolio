@@ -1,0 +1,169 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* header section */
+body{
+
+    background-color: #27374D;
+    color: white;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color:#526D82;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav  ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+
+    color: lavender;
+    font-size: 1.01rem;
+}
+.left{
+    font-size: 1.25rem;
+}
+
+main hr
+{
+    border: 0;
+    background-color:blueviolet ;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondSectionSpam{
+    color: grey;
+}
+.image-top{
+    width: 30px;
+    position: relative;
+    top: -35px;
+    left: -16px;
+
+
+}
+
+
+/* main content CSS */
+section .buttons{
+    display: flex;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+
+}
+.firstSection div{
+    width: 30%;
+    size: 23px;
+}
+
+.leftSection{
+    
+    margin: 30px 0;
+   
+}
+.leftSection .buttons .btn{
+    padding: 5px;
+    color: #DDE6ED;
+    border: 1px solid white;
+    background-color: #526D82;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 13px 5px;
+
+
+  
+}
+.rightSection img{
+    width: 100%;
+    margin: 50px 0;
+
+}
+.spanClass{
+    color: blueviolet;
+
+}
+section div h1{
+    font-size: 40px;
+}
+#element{
+    color: blueviolet;
+}
+
+
+/* second section  */
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.8rem;
+}
+.secondSection .box{
+background-color: white;
+width: 84vw;
+height: 2px;
+margin: 40px 0;
+display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.vertical-title{
+    width: 179px;
+    position: relative;
+    top: 81px;
+}
+.vertical-desc{
+    position: relative;
+    top: 102px;
+    font-size: 9px;
+    width: 124px;
+    color: gray;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #9DB2BF;
+   
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul {
+ list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-rights{
+   text-align: center;
+   color: gray;
+   padding: 12px 0;
+}
